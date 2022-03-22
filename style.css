@@ -1,0 +1,375 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(max-width: 1200px;) {
+  img.about_picture {
+    display: none;
+  }
+
+  p.content {
+    
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #87cefa;
+  border: 2px solid #6495ed;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #4682b4;
+  color: white;
+}
+
+section.title {
+  font-family: 'Content';
+  font-size: 48px;
+  text-align: center;
+  background-color: #4682b4;
+  padding: 5px;
+  height: 1000px;
+}
+
+#grad1 {
+  background-image: linear-gradient(to bottom right, #4682b4 0%, #f0ffff 100%);
+}
+
+h2.title {
+  font-family: 'Content';
+  padding: 70px 0;
+  text-align: center;
+}
+
+h4.title {
+  font-family: 'Content';
+  font-size: 20px;
+  padding-top: 0px;
+}
+
+.content {
+  text-align: center;
+  background-color: #87cefa;
+  padding: 10px;
+}
+
+h3.content_about {
+  margin-top: 0px;
+  font-family: 'Content';
+  font-size: 48px;
+}
+
+a.content_about {
+  font-family: 'Content';
+}
+
+div.content {
+  height: 800px;
+}
+
+img.about_picture {
+  display: inline-block;
+  vertical-align: top;
+  align-self: auto;
+  float: left;
+  position: relative;
+  left: 120px;
+  bottom: 70px;
+  height: 650px;
+  border-radius: 4px;
+  border-top: 20px solid #6495ed;
+  overflow-y: hidden;
+}
+
+h4.content {
+  font-family: 'Gelasio';
+  font-size: 30px;
+}
+
+p.content {
+  background-color: #1e90ff;
+  border-top: 20px solid #6495ed;
+  border-radius: 4px;
+  text-align: center;
+  overflow: auto;
+  text-overflow: ellipsis;
+  font-family: 'Content';
+  font-size: 32px;
+  max-width: 1400px;
+  max-height: 500px;
+  margin-left: 500px;
+  margin-right: 200px;
+  position: relative;
+  left: 50px;
+}
+
+section.education {
+  text-align: center;
+}
+
+div.content_education {
+  background-image: url("IMG_1468.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: inherit;
+  border-style: groove;
+  height: 1000px;
+  font-size: 24px;
+}
+
+h3.content_education {
+  position: relative;
+  top: 50px;
+  margin-top: 0px;
+  font-family: 'Content';
+  font-size: 48px;
+}
+
+h4.content_education {
+  font-size: 36px;
+  font-family: 'Content';
+  position: relative;
+  top: 50px;
+}
+
+div.list {
+  text-align: left;
+}
+
+ul {
+  background-color: #87cefa;
+  border-radius: 4px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  position: relative;
+  list-style: inside;
+  top: 25px;
+}
+
+li {
+  font-family: 'Content';
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+
+section.experience {
+  text-align: center;
+  height: 1000px;
+}
+
+div.content_experience_bg {
+  background-color: #87cefa;
+  position: relative;
+  bottom: 50px;
+  height: 1050px;
+}
+
+div.content_experience {
+  background-color: #1e90ff;
+  border-top: 20px solid #6495ed;
+  position: relative;
+  top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 4px;
+  height: 300px;
+}
+
+h3.content_experience {
+  font-size: 48px;
+  font-family: 'Content';
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+
+p.content_experience {
+  background-color: #00bfff;
+  border-top: 20px solid #6495ed;
+  position: relative;
+  top: 50px;
+  border-radius: 4px;
+  font-size: 24px;
+  font-family: 'Content';
+  overflow: auto;
+  text-overflow: ellipsis;
+  max-height: 700px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 32px;
+  background-color: #4682b4;
+  padding: 10px;
+}
+
+section.travel_header {
+  text-align: center;
+}
+
+div.travel_header_bg {
+  background-image: url("IMG_1083.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2000px;
+  position: relative;
+  bottom: 100px;
+}
+
+h2.travel_header {
+  background-image: linear-gradient(to bottom right, #4682b4 0%, #f0ffff 100%);
+  font-size: 48px;
+  font-family: 'Content';
+  overflow: auto;
+  text-overflow: ellipsis;
+  position: relative;
+  top: 500px;
+}
+
+section.travel_body_1 {
+  background-color: #87cefa;
+  background-size: contain;
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+  height: 1000px;
+}
+
+div.travel_block {
+  font-size: 36px;
+  font-family: 'Content';
+}
+
+h3.travel_block {
+  background-image: linear-gradient(to bottom right, #4682b4 0%, #f0ffff 100%);
+  text-align: center;
+  overflow: auto;
+  text-overflow: ellipsis;
+  font-family: 'Content';
+}
+
+p.paragraph_block {
+  background-color: #1e90ff;
+  border-top: 20px solid #6495ed;
+  border-radius: 4px;
+  text-align: center;
+  overflow: auto;
+  text-overflow: ellipsis;
+  font-family: 'Content';
+  font-size: 32px;
+  max-height: 600px;
+  margin-left: 300px;
+  margin-right: 300px;
+  position: relative;
+  top: 100px;
+}
+
+section.travel_body_2 {
+  background-color: #87cefa;
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  max-height: 4000px;
+  overflow: hidden;
+}
+
+div.travel_block_1 {
+  font-size: 36px;
+  font-family: 'Content';
+}
+
+div.travel_block_1_inner {
+  display: inline-block;
+}
+
+img.picture1 {
+  display: inline-block;
+  vertical-align: top;
+  align-self: auto;
+  float: left;
+  position: relative;
+  height: 650px;
+  border-radius: 4px;
+  border-top: 20px solid #6495ed;
+  overflow-y: hidden;
+}
+
+div.travel_block_1_inner_2 {
+  display: inline-block;
+}
+
+img.picture2 {
+  display: inline-block;
+  vertical-align: top;
+  align-self: auto;
+  float: left;
+  position: relative;
+  height: 650px;
+  border-radius: 4px;
+  border-top: 20px solid #6495ed;
+  overflow-y: hidden;
+}
+
+div.travel_block_1_inner_3 {
+  display: inline-block;
+}
+
+img.picture3 {
+  display: inline-block;
+  vertical-align: top;
+  align-self: auto;
+  float: left;
+  position: relative;
+  height: 650px;
+  border-radius: 4px;
+  border-top: 20px solid #6495ed;
+  overflow-y: hidden;
+}
+
+div.travel_block_1_inner_4 {
+  display: inline-block;
+}
+
+img.picture4 {
+  display: inline-block;
+  vertical-align: top;
+  align-self: auto;
+  float: left;
+  position: relative;
+  height: 650px;
+  border-radius: 4px;
+  border-top: 20px solid #6495ed;
+  overflow-y: hidden;
+}
+
+section.travel_footer {
+  text-align: center;
+  font-size: 32px;
+  background-color: #4682b4;
+  padding: 10px;
+  position: relative;
+  bottom: 200px;
+  overflow: hidden;
+}
